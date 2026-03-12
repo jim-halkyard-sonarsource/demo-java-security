@@ -6,10 +6,6 @@ on:
       - main
   pull_request:
     types: [opened, synchronize, reopened]
-
-  schedule:
-    - cron: '12 2 * * 4'
-
   workflow_dispatch:
 
 jobs:
