@@ -11,7 +11,6 @@ import java.io.IOException;
 
 @WebServlet("/files")
 public class FileServlet extends HttpServlet {
-    private static final long serialVersionUID = 1;
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String data = request.getParameter("data");
