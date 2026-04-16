@@ -10,7 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 @WebServlet("/files")
-public class FileServlet extends HttpServlet {
+public class FileServlet extends HttpServlet 
+{
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String data = request.getParameter("data");
